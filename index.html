@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timesheet with CRUD</title>
+    <style>
+    </style>
+</head>
+<body>
+
+<h2>Timesheet with CRUD Functionality</h2>
+
+<div class="timesheet-container">
+    <!-- Left Side Time Table -->
+    <table>
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Task</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="timesheet">
+            <!-- JavaScript will populate this area -->
+        </tbody>
+    </table>
+
+    <!-- Right Side Panels: To Do List and Notes -->
+    <div class="side-panel">
+        <h3>To Do List</h3>
+        <textarea id="todo-list" placeholder="Enter your to-do list"></textarea>
+        <button onclick="saveToDo()">Save To Do</button>
+
+        <h3>Notes</h3>
+        <div class="notes">
+            <textarea id="notes" placeholder="Enter your notes"></textarea>
+            <button onclick="saveNotes()">Save Notes</button>
+        </div>
+    </div>
+</div>
+
+<script>
+</script>
+
+</body>
+</html>
